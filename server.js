@@ -9,7 +9,8 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://todo-frontend-orpin-psi.vercel.app',
+
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: false
 }));
